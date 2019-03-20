@@ -2176,3 +2176,11 @@ input, select, textarea {
 			}
 
 		}
+
+		.no_underline, .no_underline_bold {
+			text-decoration: none;
+		}
+
+		.no_underline_bold {
+			font-weight: 700;
+		}
