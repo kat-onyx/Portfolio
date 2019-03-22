@@ -2177,10 +2177,24 @@ input, select, textarea {
 
 		}
 
-		.no_underline, .no_underline_bold {
-			text-decoration: none;
+		.no_underline, #no_underline_bold {
+			text-decoration: dashed;
 		}
 
-		.no_underline_bold {
+		#no_underline_bold {
 			font-weight: 700;
+    		text-align: center;
+		}
+
+		.technologies {
+			text-align: center;
+		}
+
+		.project-title {
+			text-align: center;
+		}
+
+		a {
+			text-decoration: none;
+			color: #777777;
 		}
